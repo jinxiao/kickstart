@@ -1,7 +1,7 @@
 # kickstart
 ## Introduction
  This repo will show my kickstart file for centos7 
-## features
+## Features
 - support both mbr and gpt format disk which allows you to use this kickstart file on legacy bios and disk larger than 2TB
  
 - default 163 repo
@@ -33,3 +33,5 @@ genisoimage -v -cache-inodes -joliet-long -R -J -T -V CENTOS7 -o /tmp/centos7.is
 ```
 
 - then boot your machine with this iso file, it will start automatically installation
+
+- default pasword for root and hadoop is "jinxiao" (no quotes)
